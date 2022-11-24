@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_koupani_chorvatskos",
+  "info": {
+    "displayName": "Koupání - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "oblast": {
+      "type": "string"
+    },
+    "obousmerna": {
+      "type": "biginteger"
+    }
+  }
+}

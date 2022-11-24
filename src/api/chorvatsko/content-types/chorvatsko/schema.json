@@ -32,6 +32,11 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.nastupni-mista-chorvatsko"
+    },
+    "koupani": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.koupani-chorvatsko"
     }
   }
 }
