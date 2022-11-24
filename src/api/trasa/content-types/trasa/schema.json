@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trasas",
+  "info": {
+    "singularName": "trasa",
+    "pluralName": "trasas",
+    "displayName": "Trasa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nazev": {
+      "type": "string"
+    },
+    "oznaceni": {
+      "type": "string"
+    },
+    "mesta": {
+      "displayName": "Mesta - Trasy",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesta-trasy"
+    }
+  }
+}

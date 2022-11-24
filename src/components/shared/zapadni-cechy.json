@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_zapadni_cechies",
+  "info": {
+    "displayName": "Odjezdová místa Chorvatsko",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "oblast": {
+      "type": "string"
+    },
+    "stat": {
+      "type": "string"
+    },
+    "mesto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesto-chorvatsko"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_mesice_chorvatskos",
+  "info": {
+    "displayName": "Měsíce Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "mesic": {
+      "type": "string"
+    },
+    "datumCr": {
+      "displayName": "Datum ČR - Chorvatsko",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.datum-cr-chorvatsko"
+    },
+    "datumHr": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.datum-hr-chorvatsko"
+    }
+  }
+}

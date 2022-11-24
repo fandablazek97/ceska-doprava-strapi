@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_jizdne_chorvatskos",
+  "info": {
+    "displayName": "Jízdné - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "oblast": {
+      "type": "string"
+    },
+    "zpatecni": {
+      "type": "integer"
+    },
+    "jednosmerna": {
+      "type": "integer"
+    }
+  }
+}

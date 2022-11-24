@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "informaces",
+  "info": {
+    "singularName": "informace",
+    "pluralName": "informaces",
+    "displayName": "Informace"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kalendar": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "katalog": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "podminky": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

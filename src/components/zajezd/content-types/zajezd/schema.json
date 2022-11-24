@@ -1,0 +1,99 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zajezds",
+  "info": {
+    "singularName": "zajezd",
+    "pluralName": "zajezds",
+    "displayName": "Zajezd",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stat": {
+      "type": "string",
+      "required": true
+    },
+    "lokace": {
+      "type": "string",
+      "required": true
+    },
+    "nazev": {
+      "type": "string",
+      "required": true
+    },
+    "kod": {
+      "type": "string",
+      "required": true
+    },
+    "popis": {
+      "type": "richtext"
+    },
+    "informace": {
+      "type": "richtext"
+    },
+    "ubytovani": {
+      "type": "richtext"
+    },
+    "stravovani": {
+      "type": "richtext"
+    },
+    "doprava": {
+      "type": "richtext"
+    },
+    "program": {
+      "type": "richtext"
+    },
+    "zabava": {
+      "type": "richtext"
+    },
+    "tipy": {
+      "type": "richtext"
+    },
+    "poznamka": {
+      "type": "richtext"
+    },
+    "uvodniFoto": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "dalsiFoto": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "kratkyPopis": {
+      "type": "string"
+    },
+    "terminACena": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.datum-a-cena",
+      "required": true
+    },
+    "odjezdovaMista": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.odjezdova-mista",
+      "required": true
+    },
+    "kategorie": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.kategorie",
+      "required": true
+    }
+  }
+}

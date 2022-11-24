@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_datum_a_cenas",
+  "info": {
+    "displayName": "TerminACena",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "datumOd": {
+      "type": "date",
+      "default": "2022-08-18"
+    },
+    "datumDo": {
+      "type": "date",
+      "default": "2022-08-18"
+    },
+    "cena": {
+      "type": "integer"
+    },
+    "pocetDni": {
+      "type": "integer"
+    },
+    "pocetNoci": {
+      "type": "integer"
+    }
+  }
+}

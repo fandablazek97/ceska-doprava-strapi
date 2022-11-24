@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_trasy_zajezds",
+  "info": {
+    "displayName": "Trasy - Zajezd"
+  },
+  "options": {},
+  "attributes": {
+    "oznaceniTrasy": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    }
+  }
+}

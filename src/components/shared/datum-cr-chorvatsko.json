@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_datum_cr_chorvatskos",
+  "info": {
+    "displayName": "Datum ČR - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "datum": {
+      "type": "string"
+    }
+  }
+}

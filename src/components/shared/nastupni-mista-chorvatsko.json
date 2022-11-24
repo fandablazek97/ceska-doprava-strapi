@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_nastupni_mista_chorvatskos",
+  "info": {
+    "displayName": "Nástupní místa - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "mesto": {
+      "displayName": "Město - Chorvatsko",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesto-chorvatsko"
+    },
+    "cena": {
+      "type": "string"
+    }
+  }
+}

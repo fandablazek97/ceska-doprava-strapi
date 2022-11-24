@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_mesta_trasies",
+  "info": {
+    "displayName": "Mesta - Trasy"
+  },
+  "options": {},
+  "attributes": {
+    "nazevMesta": {
+      "type": "string"
+    }
+  }
+}

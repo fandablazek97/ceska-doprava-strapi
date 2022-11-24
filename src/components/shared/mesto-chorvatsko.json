@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_mesto_chorvatskos",
+  "info": {
+    "displayName": "Město - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "nazev": {
+      "type": "string"
+    }
+  }
+}

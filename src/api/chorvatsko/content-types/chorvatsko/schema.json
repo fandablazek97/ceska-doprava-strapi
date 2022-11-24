@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "chorvatskos",
+  "info": {
+    "singularName": "chorvatsko",
+    "pluralName": "chorvatskos",
+    "displayName": "Chorvatsko",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "odjezdMista": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.zapadni-cechy"
+    },
+    "jizdne": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.jizdne-chorvatsko"
+    },
+    "mesice": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesice-chorvatsko"
+    },
+    "nastupniMista": {
+      "displayName": "Nástupní místa - Chorvatsko",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.nastupni-mista-chorvatsko"
+    }
+  }
+}

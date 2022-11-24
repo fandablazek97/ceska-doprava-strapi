@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_odjezdova_mistas",
+  "info": {
+    "displayName": "OdjezdovaMista",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mesto": {
+      "type": "string"
+    },
+    "ulice": {
+      "type": "string"
+    },
+    "cisloPopisne": {
+      "type": "string"
+    }
+  }
+}

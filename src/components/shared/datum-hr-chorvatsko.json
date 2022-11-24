@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_datum_hr_chorvatskos",
+  "info": {
+    "displayName": "Datum Hr - Chorvatsko",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "datum": {
+      "type": "string"
+    }
+  }
+}
