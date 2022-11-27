@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_trasa_vybers",
+  "info": {
+    "displayName": "Trasa - Vyber"
+  },
+  "options": {},
+  "attributes": {
+    "oznaceni": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    }
+  }
+}

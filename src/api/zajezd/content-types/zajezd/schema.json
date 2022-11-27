@@ -90,10 +90,10 @@
       "component": "shared.kategorie",
       "required": true
     },
-    "trasy": {
+    "trasa": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.trasy"
+      "repeatable": true,
+      "component": "shared.trasa-vyber"
     }
   }
 }
