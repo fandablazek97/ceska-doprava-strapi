@@ -94,12 +94,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.trasy"
-    },
-    "trasy1": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::trasa.trasa",
-      "mappedBy": "zajezdy"
     }
   }
 }

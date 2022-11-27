@@ -26,12 +26,6 @@
       "repeatable": true,
       "component": "shared.mesta-trasy",
       "required": true
-    },
-    "zajezdy": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::zajezd.zajezd",
-      "inversedBy": "trasy1"
     }
   }
 }
