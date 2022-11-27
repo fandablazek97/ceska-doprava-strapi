@@ -4,7 +4,8 @@
   "info": {
     "singularName": "trasa",
     "pluralName": "trasas",
-    "displayName": "Trasa"
+    "displayName": "Trasa",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,25 @@
   "pluginOptions": {},
   "attributes": {
     "nazev": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "oznaceni": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "mesta": {
       "displayName": "Mesta - Trasy",
       "type": "component",
       "repeatable": true,
-      "component": "shared.mesta-trasy"
+      "component": "shared.mesta-trasy",
+      "required": true
+    },
+    "zajezdy": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::zajezd.zajezd",
+      "inversedBy": "trasy1"
     }
   }
 }

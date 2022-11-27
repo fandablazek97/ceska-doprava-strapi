@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_trasies",
+  "info": {
+    "displayName": "Trasy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "trasas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trasa.trasa"
+    }
+  }
+}

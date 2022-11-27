@@ -58,7 +58,7 @@
     "uvodniFoto": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -75,18 +75,13 @@
       ]
     },
     "kratkyPopis": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "terminACena": {
       "type": "component",
       "repeatable": true,
       "component": "shared.datum-a-cena",
-      "required": true
-    },
-    "odjezdovaMista": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.odjezdova-mista",
       "required": true
     },
     "kategorie": {
@@ -97,8 +92,14 @@
     },
     "trasy": {
       "type": "component",
-      "repeatable": true,
-      "component": "shared.trasy-zajezd"
+      "repeatable": false,
+      "component": "shared.trasy"
+    },
+    "trasy1": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trasa.trasa",
+      "mappedBy": "zajezdy"
     }
   }
 }

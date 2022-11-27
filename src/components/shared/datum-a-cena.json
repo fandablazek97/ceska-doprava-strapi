@@ -9,20 +9,25 @@
   "attributes": {
     "datumOd": {
       "type": "date",
-      "default": "2022-08-18"
+      "default": "2022-08-18",
+      "required": true
     },
     "datumDo": {
       "type": "date",
-      "default": "2022-08-18"
+      "default": "2022-08-18",
+      "required": true
     },
     "cena": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "pocetDni": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     },
     "pocetNoci": {
-      "type": "integer"
+      "type": "integer",
+      "required": true
     }
   }
 }

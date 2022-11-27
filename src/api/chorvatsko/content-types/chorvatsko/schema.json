@@ -15,28 +15,34 @@
     "odjezdMista": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.zapadni-cechy"
+      "component": "shared.zapadni-cechy",
+      "required": true
     },
     "jizdne": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.jizdne-chorvatsko"
+      "component": "shared.jizdne-chorvatsko",
+      "required": true
     },
     "mesice": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.mesice-chorvatsko"
+      "component": "shared.mesice-chorvatsko",
+      "required": true
     },
     "nastupniMista": {
       "displayName": "Nástupní místa - Chorvatsko",
       "type": "component",
       "repeatable": true,
-      "component": "shared.nastupni-mista-chorvatsko"
+      "component": "shared.nastupni-mista-chorvatsko",
+      "required": true
     },
     "koupani": {
+      "displayName": "Koupání - Chorvatsko",
       "type": "component",
       "repeatable": true,
-      "component": "shared.koupani-chorvatsko"
+      "component": "shared.koupani-chorvatsko",
+      "required": true
     }
   }
 }

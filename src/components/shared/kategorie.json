@@ -18,7 +18,8 @@
         "Muzikaly",
         "Adventni",
         "LastMinute"
-      ]
+      ],
+      "required": true
     }
   }
 }

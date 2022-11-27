@@ -9,7 +9,7 @@
       "type": "string"
     },
     "obousmerna": {
-      "type": "biginteger"
+      "type": "integer"
     }
   }
 }
