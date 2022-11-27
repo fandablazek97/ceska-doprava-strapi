@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_trasa_vybers",
   "info": {
-    "displayName": "Trasa - Vyber"
+    "displayName": "Trasa - Vyber",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,7 +20,8 @@
         "I",
         "J",
         "K"
-      ]
+      ],
+      "required": true
     }
   }
 }
