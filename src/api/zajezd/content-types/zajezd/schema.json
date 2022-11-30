@@ -34,22 +34,10 @@
     "informace": {
       "type": "richtext"
     },
-    "ubytovani": {
-      "type": "richtext"
-    },
-    "stravovani": {
-      "type": "richtext"
-    },
     "doprava": {
       "type": "richtext"
     },
     "program": {
-      "type": "richtext"
-    },
-    "zabava": {
-      "type": "richtext"
-    },
-    "tipy": {
       "type": "richtext"
     },
     "poznamka": {
@@ -94,6 +82,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.trasa-vyber"
+    },
+    "poradatel": {
+      "type": "string"
     }
   }
 }

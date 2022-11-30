@@ -15,7 +15,7 @@
     "datumDo": {
       "type": "date",
       "default": "2022-08-18",
-      "required": true
+      "required": false
     },
     "cena": {
       "type": "integer",
@@ -23,11 +23,11 @@
     },
     "pocetDni": {
       "type": "integer",
-      "required": true
+      "required": false
     },
     "pocetNoci": {
       "type": "integer",
-      "required": true
+      "required": false
     }
   }
 }
