@@ -85,6 +85,12 @@
     },
     "poradatel": {
       "type": "string"
+    },
+    "dulezitost": {
+      "type": "integer"
+    },
+    "vybrany": {
+      "type": "boolean"
     }
   }
 }
