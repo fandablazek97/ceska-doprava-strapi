@@ -43,6 +43,10 @@
       "repeatable": true,
       "component": "shared.koupani-chorvatsko",
       "required": true
+    },
+    "rok": {
+      "type": "string",
+      "required": true
     }
   }
 }
