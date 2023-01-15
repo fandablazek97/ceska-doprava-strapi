@@ -20,22 +20,23 @@
       "type": "string",
       "required": true
     },
-    "mesta": {
-      "displayName": "Mesta - Trasy",
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.mesta-trasy",
-      "required": true
-    },
     "obrazek": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "mesta": {
+      "displayName": "Mesta - Trasa",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesta-trasa",
+      "required": true
     }
   }
 }

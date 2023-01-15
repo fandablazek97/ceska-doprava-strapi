@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_mesta_trasas",
+  "info": {
+    "displayName": "Mesta - Trasa"
+  },
+  "options": {},
+  "attributes": {
+    "cena": {
+      "type": "integer",
+      "required": true
+    },
+    "mesto": {
+      "displayName": "Mesta2 Trasa",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesta2-trasa",
+      "required": true
+    }
+  }
+}
