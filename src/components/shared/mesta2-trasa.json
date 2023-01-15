@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_mesta2_trasas",
+  "info": {
+    "displayName": "Mesta2 Trasa"
+  },
+  "options": {},
+  "attributes": {
+    "mesto": {
+      "type": "string"
+    }
+  }
+}
