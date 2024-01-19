@@ -12,6 +12,7 @@
       "enum": [
         "Novinky",
         "Jednodenni",
+        "Vicedenni",
         "Chorvatsko",
         "Lyzovani",
         "Exkurze",
