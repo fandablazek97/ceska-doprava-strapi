@@ -91,6 +91,9 @@
     },
     "vybrany": {
       "type": "boolean"
+    },
+    "obsazeny": {
+      "type": "boolean"
     }
   }
 }
