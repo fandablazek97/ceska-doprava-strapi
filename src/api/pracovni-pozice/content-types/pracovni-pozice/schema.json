@@ -15,9 +15,6 @@
     "Nazev": {
       "type": "string"
     },
-    "tagy": {
-      "type": "json"
-    },
     "popis": {
       "type": "richtext"
     },
