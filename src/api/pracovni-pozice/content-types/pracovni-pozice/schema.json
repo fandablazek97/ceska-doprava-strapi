@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pracovni_pozices",
+  "info": {
+    "singularName": "pracovni-pozice",
+    "pluralName": "pracovni-pozices",
+    "displayName": "Pracovni pozice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazev": {
+      "type": "string"
+    },
+    "tagy": {
+      "type": "json"
+    },
+    "popis": {
+      "type": "richtext"
+    },
+    "kategorie": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pracovni-pozice.kategorie"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pracovni_pozice_kategories",
+  "info": {
+    "displayName": "kategorie",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "kategorie": {
+      "type": "enumeration",
+      "enum": [
+        "Pro muže i ženy",
+        "Klatovy",
+        "Plný úvazek"
+      ]
+    }
+  }
+}
