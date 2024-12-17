@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_cena_mesto_nova_trasas",
+  "info": {
+    "displayName": "Cena - Město - Nová Trasa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cena": {
+      "type": "integer",
+      "required": true
+    },
+    "mesto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mesta-nova-trasa"
+    }
+  }
+}
