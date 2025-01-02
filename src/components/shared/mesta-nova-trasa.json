@@ -20,6 +20,11 @@
     "souradnice": {
       "type": "string",
       "required": true
+    },
+    "poradi": {
+      "type": "integer",
+      "unique": false,
+      "required": true
     }
   }
 }
