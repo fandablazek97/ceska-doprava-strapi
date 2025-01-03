@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_mesto_mapa_chorvatskos",
+  "info": {
+    "displayName": "Město - Mapa - Chorvatsko"
+  },
+  "options": {},
+  "attributes": {
+    "nazev": {
+      "type": "string",
+      "required": true
+    },
+    "popisek": {
+      "type": "string"
+    },
+    "adresa": {
+      "type": "string",
+      "required": true
+    },
+    "souradnice": {
+      "type": "string",
+      "required": true
+    },
+    "poradi": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

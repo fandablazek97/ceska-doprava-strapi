@@ -15,7 +15,7 @@
     "mesto": {
       "type": "component",
       "repeatable": true,
-      "component": "shared.mesto-chorvatsko"
+      "component": "shared.mesto-mapa-chorvatsko"
     }
   }
 }
