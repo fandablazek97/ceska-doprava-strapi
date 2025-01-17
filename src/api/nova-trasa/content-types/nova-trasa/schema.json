@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nova_trasas",
+  "info": {
+    "singularName": "nova-trasa",
+    "pluralName": "nova-trasas",
+    "displayName": "Nová trasa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nazev": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "oznaceni": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "CH",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "required": true
+    },
+    "stred": {
+      "type": "string",
+      "required": true
+    },
+    "mesta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.cena-mesto-nova-trasa"
+    }
+  }
+}

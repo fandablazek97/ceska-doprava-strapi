@@ -24,12 +24,6 @@
       "component": "shared.jizdne-chorvatsko",
       "required": true
     },
-    "mesice": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.mesice-chorvatsko",
-      "required": true
-    },
     "nastupniMista": {
       "displayName": "Nástupní místa - Chorvatsko",
       "type": "component",
@@ -46,6 +40,14 @@
     },
     "rok": {
       "type": "string",
+      "required": true
+    },
+    "mapaStred": {
+      "type": "string",
+      "required": true
+    },
+    "mapaZoom": {
+      "type": "decimal",
       "required": true
     }
   }

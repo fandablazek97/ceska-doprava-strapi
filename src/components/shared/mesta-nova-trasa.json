@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_mesta_nova_trasas",
+  "info": {
+    "displayName": "Města - Nová Trasa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mesto": {
+      "type": "string",
+      "required": true
+    },
+    "popisek": {
+      "type": "string"
+    },
+    "adresa": {
+      "type": "string",
+      "required": true
+    },
+    "souradnice": {
+      "type": "string",
+      "required": true
+    },
+    "poradi": {
+      "type": "integer",
+      "unique": false,
+      "required": true
+    }
+  }
+}

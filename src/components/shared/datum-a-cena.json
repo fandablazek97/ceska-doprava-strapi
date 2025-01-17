@@ -9,12 +9,10 @@
   "attributes": {
     "datumOd": {
       "type": "date",
-      "default": "2022-08-18",
       "required": true
     },
     "datumDo": {
       "type": "date",
-      "default": "2022-08-18",
       "required": false
     },
     "cena": {

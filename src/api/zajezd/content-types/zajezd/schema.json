@@ -94,6 +94,14 @@
     },
     "obsazeny": {
       "type": "boolean"
+    },
+    "noveTrasy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.trasa-vyber"
+    },
+    "cenaMistenky": {
+      "type": "integer"
     }
   }
 }

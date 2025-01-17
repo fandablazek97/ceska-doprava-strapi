@@ -6,7 +6,8 @@
   "options": {},
   "attributes": {
     "nazev": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
