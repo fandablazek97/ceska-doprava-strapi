@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_mesto_mapa_chorvatskos",
   "info": {
-    "displayName": "Město - Mapa - Chorvatsko"
+    "displayName": "Město - Mapa - Chorvatsko",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -23,6 +24,9 @@
     "poradi": {
       "type": "integer",
       "required": true
+    },
+    "trasa": {
+      "type": "string"
     }
   }
 }
