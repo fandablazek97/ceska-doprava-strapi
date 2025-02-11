@@ -21,10 +21,6 @@
       "type": "string",
       "required": true
     },
-    "poradi": {
-      "type": "integer",
-      "required": true
-    },
     "trasa": {
       "type": "string"
     }
