@@ -42,13 +42,19 @@
       "type": "string",
       "required": true
     },
-    "mapaStred": {
+    "mapaCrStred": {
       "type": "string",
       "required": true
     },
-    "mapaZoom": {
+    "mapaCrZoom": {
       "type": "decimal",
       "required": true
+    },
+    "mapaHrStred": {
+      "type": "string"
+    },
+    "mapaHrZoom": {
+      "type": "decimal"
     }
   }
 }
