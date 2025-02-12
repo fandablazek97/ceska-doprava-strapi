@@ -23,6 +23,12 @@
     },
     "trasa": {
       "type": "string"
+    },
+    "cena": {
+      "type": "string"
+    },
+    "casOdjezdu": {
+      "type": "time"
     }
   }
 }
